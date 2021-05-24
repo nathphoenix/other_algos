@@ -8,9 +8,9 @@ import requests
 import json
 import numpy as np
 
-account_token = 'f1663880f21b9ca71e945b2a8bf3623cd4b6768efb7d582ff9c79ce154a4c04d'
-trello_api_key = 'a37cc3e30877744b1cff20e2f230a0f2'
-trello_api_secret = 'f0fd4053be8a527ef0053a65a4fa393617f1bd150d1c32e34b7794e4ccb5f67d'
+account_token = ''
+trello_api_key = ''
+trello_api_secret = ''
 
 client = TrelloClient(
     api_key=trello_api_key,

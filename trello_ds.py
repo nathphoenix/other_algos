@@ -7,9 +7,9 @@ from datetime import datetime as dt
 import requests
 import json
 
-account_token = '9b32f2e0f53a3844b8ca5005c6f23bcffd79a7f38cab9d1aa4f371187473e91f'
-trello_api_key = '520add1fdfacaec7283f7b998420b248'
-trello_api_secret = '2dc626d00bc58aae404405c5c7bffabe7c407bb51823491851ed941515c0243a'
+account_token = ''
+trello_api_key = ''
+trello_api_secret = ''
 
 client = TrelloClient(
     api_key=trello_api_key,
